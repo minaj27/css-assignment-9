@@ -1,0 +1,85 @@
+.main{
+    background-color: coral;
+    height: 600px;
+    width: 1000px;
+    position: relative;
+    margin-left: 300px;
+}
+.div1{
+    background-color: aquamarine;
+     height: 250px;
+     width: 400px;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     text-align: center;
+     padding: 10px;
+}
+.div2{
+    background-color: aquamarine;
+     height: 250px;
+     width: 400px;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     text-align: center;
+     padding: 10px;
+}
+.div3{
+    background-color: aquamarine;
+     height: 250px;
+     width: 400px;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     text-align: center;
+     padding: 10px;
+}
+.div4{
+    background-color: aquamarine;
+     height: 250px;
+     width: 400px;
+     position: absolute;
+     bottom: 0px;
+     right: 0px;
+     text-align: center;
+     padding: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.div1:hover{
+    background-color: blueviolet;
+}
+.div2:hover{
+    background-color: blueviolet;
+}
+.div3:hover{
+    background-color: blueviolet;
+}
+.div4:hover{
+    background-color: blueviolet;
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+h1:hover{
+    color: darkslateblue;
+}
+p::before{
+    content: "Lorem";
+    color: brown;
+    background-color: yellow;
+}
+p::after{
+    content: "Lorem";
+    color: brown;
+    background-color: yellow;
+}
+
